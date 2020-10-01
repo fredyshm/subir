@@ -10,6 +10,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
+// es algo opcional
 @Entity
 @Table(name="REVISION_INFO")
 @RevisionEntity(CustomRevisionListener.class)
