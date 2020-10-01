@@ -33,4 +33,6 @@ public class Mascot implements Serializable {
     private String genero;
     @Column(name = "estado")
     private String estado;
+
+	//probando el git
 }
